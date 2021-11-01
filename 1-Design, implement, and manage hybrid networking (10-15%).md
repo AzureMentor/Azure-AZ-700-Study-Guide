@@ -21,19 +21,19 @@
 - [Configure a Point-to-Site VPN connection to a VNet using multiple authentication types](https://docs.microsoft.com/en-us/azure/vpn-gateway/howto-point-to-site-multi-auth)
 
 ## Design, implement, and manage Azure ExpressRoute
-- Choose between provider and direct model (ExpressRoute Direct)
-- Design and implement Azure cross-region connectivity between multiple ExpressRoute locations
-- Select an appropriate ExpressRoute SKU and tier
-- Design and implement ExpressRoute Global Reach
-- Design and implement ExpressRoute FastPath
-- Choose between private peering only, Microsoft peering only, or both
-- Configure private peering
-- Configure Microsoft peering
-- Create and configure an ExpressRoute gateway
-- Connect a virtual network to an ExpressRoute circuit
-- Recommend a route advertisement configuration
-- Configure encryption over ExpressRoute
-- Implement Bidirectional Forwarding Detection
-- Diagnose and resolve ExpressRoute connection issues
+- [Choose between provider and direct model (ExpressRoute Direct)](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-erdirect-about)
+- [Design and implement Azure cross-region connectivity between multiple ExpressRoute locations](https://docs.microsoft.com/en-us/azure/expressroute/cross-network-connectivity)
+- [Select an appropriate ExpressRoute SKU and tier](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-about-virtual-network-gateways)
+- [Design and implement ExpressRoute Global Reach](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-set-global-reach)
+- [Design and implement ExpressRoute FastPath](https://docs.microsoft.com/en-us/azure/expressroute/about-fastpath)
+- [Choose between private peering only, Microsoft peering only, or both](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-circuit-peerings)
+- [Configure private peering](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-routing-portal-resource-manager)
+- [Configure Microsoft peering](https://docs.microsoft.com/en-us/azure/expressroute/how-to-routefilter-portal)
+- [Create and configure an ExpressRoute gateway](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-add-gateway-portal-resource-manager)
+- [Connect a virtual network to an ExpressRoute circuit](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-linkvnet-portal-resource-manager)
+- [Recommend a route advertisement configuration](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-routing)
+- [Configure encryption over ExpressRoute](https://docs.microsoft.com/en-us/azure/virtual-wan/vpn-over-expressroute)
+- [Implement Bidirectional Forwarding Detection (BFD)](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-bfd)
+- [Diagnose and resolve ExpressRoute connection issues](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-troubleshooting-expressroute-overview)
 
 [Return to Table of Contents](README.md)
