@@ -11,13 +11,14 @@
     - [Troubleshoot Azure VPN Gateway using diagnostic logs](https://docs.microsoft.com/en-us/azure/vpn-gateway/troubleshoot-vpn-with-azure-diagnostics)
 
 ## Design, implement, and manage a Point-to-Site VPN connection
-- Select an appropriate virtual network gateway SKU
-- Plan and configure RADIUS authentication
-- Plan and configure certificate-based authentication
-- Plan and configure OpenVPN authentication
-- Plan and configure Azure Active Directory (Azure AD) authentication
-- Implement a VPN client configuration file
-- Diagnose and resolve client-side and authentication issues
+- [Select an appropriate virtual network gateway SKU](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways)
+- [Plan and configure RADIUS authentication](https://docs.microsoft.com/en-us/azure/vpn-gateway/point-to-site-how-to-radius-ps)
+- [Plan and configure certificate-based authentication](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal)
+- [Plan and configure OpenVPN authentication](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-openvpn)
+- [Plan and configure Azure Active Directory (Azure AD) authentication](https://docs.microsoft.com/en-us/azure/vpn-gateway/openvpn-azure-ad-tenant)
+- [Implement a VPN client configuration file](https://docs.microsoft.com/en-us/azure/vpn-gateway/point-to-site-vpn-client-configuration-radius)
+- [Diagnose and resolve client-side and authentication issues](https://docs.microsoft.com/en-us/azure/vpn-gateway/troubleshoot-ad-vpn-client)
+- [Configure a Point-to-Site VPN connection to a VNet using multiple authentication types](https://docs.microsoft.com/en-us/azure/vpn-gateway/howto-point-to-site-multi-auth)
 
 ## Design, implement, and manage Azure ExpressRoute
 - Choose between provider and direct model (ExpressRoute Direct)
