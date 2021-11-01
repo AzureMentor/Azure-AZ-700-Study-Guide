@@ -1,15 +1,16 @@
 # AZ-700: Design, Implement, and Manage Hybrid Networking (10–15%)
 
-## Design, implement, and manage a site-to-site VPN connection
-- Design a site-to-site VPN connection for high availability
-- Select an appropriate virtual network (VNet) gateway SKU
-- Identify when to use policy-based VPN versus route-based VPN
-- Create and configure a local network gateway
-- Create and configure an IPsec/IKE policy 
-- Create and configure a virtual network gateway
-- Diagnose and resolve VPN gateway connectivity issues
+## Design, implement, and manage a Site-to-Site VPN connection
+- [Design a site-to-site VPN connection for high availability](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-highlyavailable)
+- [Select an appropriate virtual network (VNet) gateway SKU](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways)
+- [Identify when to use policy-based VPN versus route-based VPN](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-vpn-faq)
+- [Create and configure a local network gateway](https://docs.microsoft.com/en-us/azure/vpn-gateway/tutorial-site-to-site-portal)
+- [Create and configure an IPsec/IKE policy](https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-vpn-s2s)
+- [Create and configure a virtual network gateway](https://docs.microsoft.com/en-us/azure/vpn-gateway/tutorial-create-gateway-portal)
+- [Diagnose and resolve VPN gateway connectivity issues](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-troubleshoot)
+    - [Troubleshoot Azure VPN Gateway using diagnostic logs](https://docs.microsoft.com/en-us/azure/vpn-gateway/troubleshoot-vpn-with-azure-diagnostics)
 
-## Design, implement, and manage a point-to-site VPN connection
+## Design, implement, and manage a Point-to-Site VPN connection
 - Select an appropriate virtual network gateway SKU
 - Plan and configure RADIUS authentication
 - Plan and configure certificate-based authentication
