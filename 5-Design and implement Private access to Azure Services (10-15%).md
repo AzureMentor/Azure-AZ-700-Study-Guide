@@ -30,11 +30,16 @@
 - Integrate a Private Link service with on-premises clients
     - [Tutorial: Connect to an Azure SQL server using an Azure Private Endpoint - Azure portal](https://docs.microsoft.com/en-us/azure/private-link/tutorial-private-endpoint-sql-portal)
 
-## Design and implement service endpoints
-- [Create service endpoints]()
-- [Configure service endpoint policies]()
-- [Configure service tags]()
-- [Configure access to service endpoints]()
+## Design and implement Service Endpoints
+- Create Service Endpoints
+    - [Tutorial: Restrict network access to PaaS resources with virtual network Service Endpoints using the Azure portal](https://docs.microsoft.com/en-us/azure/virtual-network/tutorial-restrict-network-access-to-resources)
+- Configure Service Endpoint policies
+    - [Create, change, or delete Service Endpoint policy using the Azure portal](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoint-policies-portal)
+    - [Manage data exfiltration to Azure Storage accounts with Virtual network Service Endpoint policies using Azure PowerShell](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoint-policies-powershell)
+    - [Manage data exfiltration to Azure Storage accounts with virtual network Service Endpoint policies using the Azure CLI](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoint-policies-cli)
+- [Configure Virtual Network Service Tags](https://docs.microsoft.com/en-us/azure/virtual-network/service-tags-overview)
+- [Configure access to Service Endpoints](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview)
+    - [Allow access to Azure Service Bus namespace from specific virtual networks](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-service-endpoints)
 
 ## Configure VNet integration for dedicated platform as a service (PaaS) services
 - [Configure App Service for regional VNet integration]()
