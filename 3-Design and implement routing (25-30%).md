@@ -56,8 +56,13 @@
     - [Azure Traffic Manager endpoint monitoring](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-monitoring)
 
 ## Design and implement an Azure Virtual Network NAT
-- [Choose when to use a Virtual Network NAT]()
-- [Allocate public IP or public IP prefixes for a NAT gateway]()
-- [Associate a Virtual Network NAT with a subnet]()
+- [Choose when to use a Virtual Network Address Translation (NAT)](https://docs.microsoft.com/en-us/azure/virtual-network/nat-gateway/nat-overview)
+- Allocate public IP or public IP prefixes for a NAT gateway
+    - [Design virtual networks with NAT gateway](https://docs.microsoft.com/en-us/azure/virtual-network/nat-gateway/nat-gateway-resource)
+    - [Tutorial: Create a NAT gateway using Azure portal](https://docs.microsoft.com/en-us/azure/virtual-network/nat-gateway/tutorial-create-nat-gateway-portal#nat-gateway)
+- Associate a Virtual Network NAT with a subnet
+    - [Tutorial: Create a NAT gateway using Azure portal](https://docs.microsoft.com/en-us/azure/virtual-network/nat-gateway/tutorial-create-nat-gateway-portal)
+    - [Tutorial: Create a NAT gateway using Azure PowerShell](https://docs.microsoft.com/en-us/azure/virtual-network/nat-gateway/tutorial-create-nat-gateway-powershell)
+    - [Tutorial: Create a NAT gateway using Azure CLI](https://docs.microsoft.com/en-us/azure/virtual-network/nat-gateway/tutorial-create-nat-gateway-cli)
 
 [Return to Table of Contents](README.md)
