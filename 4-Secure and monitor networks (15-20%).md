@@ -32,11 +32,25 @@
 - [Verify IP flow](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview)
 
 ## Implement a Web Application Firewall (WAF) deployment
-- [Configure detection or prevention mode]()
-- [Configure rule sets for Azure Front Door, including Microsoft managed and user defined]()
-- [Configure rule sets for Application Gateway, including Microsoft managed and user defined]()
-- [Implement a WAF policy ]()
-- [Associate a WAF policy ]()
+- [Configure detection or prevention mode](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview#waf-modes)
+    - Detection mode
+        - Monitors and logs all threat alerts.
+        - You turn on logging diagnostics for Application Gateway in the Diagnostics section.
+        - You must also make sure that the WAF log is selected and turned on.
+        - Web application firewall does not block incoming requests when it is operating in Detection mode.
+    - Prevention mode
+        - Blocks intrusions and attacks that the rules detect.
+        - The attacker receives a "403 unauthorized access" exception, and the connection is closed.
+        - Prevention mode records such attacks in the WAF logs.
+    - [Configure Web Application Firewall rules](https://docs.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-create-portal#change-mode)
+- [Configure rule sets for Azure Front Door, including Microsoft managed and user defined](https://docs.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-custom-rules)
+    - [Web Application Firewall DRS rule groups and rules](https://docs.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-drs?tabs=drs20)
+    - [Default Rule Set (DRS)](https://docs.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-create-portal#default-rule-set-drs)
+- Configure rule sets for Application Gateway, including Microsoft managed and user defined
+    - [Custom rules for Web Application Firewall v2 on Azure Application Gateway](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/custom-waf-rules-overview)
+    - [Web Application Firewall CRS rule groups and rules](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/application-gateway-crs-rulegroups-rules?tabs=owasp31)
+- [Implement a WAF policy](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/create-waf-policy-ag)
+- [Associate a WAF policy](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/associate-waf-policy-existing-gateway)
 
 ## Monitor networks 
 - [Configure Network Health Alerts and Logging by using Azure Monitor]()
