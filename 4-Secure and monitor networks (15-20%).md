@@ -53,11 +53,16 @@
 - [Associate a WAF policy](https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/associate-waf-policy-existing-gateway)
 
 ## Monitor networks 
-- [Configure Network Health Alerts and Logging by using Azure Monitor]()
-- [Create and configure a Connection Monitor instance]()
-- [Configure and use Traffic Analytics]()
-- [Configure NSG flow logs]()
-- [Enable and configure diagnostic logging]()
-- [Configure Azure Network Watcher]()
+- [Configure Network Health Alerts and Logging by using Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/network-insights-overview#networkhealth)
+- [Create and configure a Connection Monitor instance](https://docs.microsoft.com/en-us/azure/network-watcher/connection-monitor-create-using-portal)
+- [Configure and use Traffic Analytics](https://docs.microsoft.com/en-us/azure/network-watcher/traffic-analytics)
+- Configure NSG flow logs
+    - [Configuring Network Security Group Flow logs with Azure PowerShell](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-powershell)
+    - [Configuring Network Security Group Flow logs with Azure CLI](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-powershell)
+    - [Configure NSG Flow Logs from an ARM template](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-azure-resource-manager)
+- [Enable and configure diagnostic logging](https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/diagnostic-settings)
+    - [Resource logging for a Network Security Group](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-nsg-manage-log)
+- [Configure Azure Network Watcher](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-create)
+    - [What is Azure Network Watcher?](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview)
 
 [Return to Table of Contents](README.md)
