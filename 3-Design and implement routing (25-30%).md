@@ -36,12 +36,12 @@
 - [Configure URL Rewrite policies](https://docs.microsoft.com/en-us/azure/application-gateway/rewrite-url-portal)
 
 ## Implement Azure Front Door
-- [Choose an Azure Front Door SKU]()
-- [Configure health probes, including customization of HTTP response codes]()
-- [Configure SSL termination and end-to-end SSL encryption]()
-- [Configure multisite listeners]()
-- [Configure back-end targets]()
-- [Configure routing rules, including redirection rules]()
+- [Choose an Azure Front Door SKU](https://docs.microsoft.com/en-us/azure/frontdoor/standard-premium/tier-comparison)
+- [Configure Health Probes, including customization of HTTP response codes](https://docs.microsoft.com/en-us/azure/////frontdoor/front-door-health-probes)
+- [Configure SSL termination and end-to-end SSL encryption](https://docs.microsoft.com/en-us/azure/frontdoor/standard-premium/how-to-configure-https-custom-domain)
+- [Configure multi-site listeners](https://docs.microsoft.com/en-us/azure/application-gateway/multiple-site-overview#wildcard-host-names-in-listener)
+- [Configure back-end targets in Azure Front Door](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-backend-pool)
+- [Configure routing rules, including redirection rules](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-how-to-redirect-https)
 
 ## Implement an Azure Traffic Manager profile
 - [Configure a routing method (mode)]()
