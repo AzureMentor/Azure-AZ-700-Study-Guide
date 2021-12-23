@@ -44,9 +44,16 @@
 - [Configure routing rules, including redirection rules](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-how-to-redirect-https)
 
 ## Implement an Azure Traffic Manager profile
-- [Configure a routing method (mode)]()
-- [Configure endpoints]()
-- [Create HTTP settings]()
+- [Configure an Azure Traffic Manager routing method (mode)](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-routing-methods) | [Tutorial: Configure priority traffic routing method in Traffic Manager](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-configure-priority-routing-method)
+    - [Priority](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-routing-methods#priority-traffic-routing-method) - to have a primary service endpoint for all traffic. You can provide multiple backup endpoints in case the primary or one of the backup endpoints is unavailable
+    - [Weighted](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-routing-methods#weighted) - to distribute traffic across a set of endpoints based on their weight. Set the weight the same to distribute evenly across all endpoints
+    - [Performance](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-routing-methods#performance) - to have endpoints in different geographic locations and you want end users to use the "closest" endpoint for the lowest network latency
+    - [Geographic](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-routing-methods#geographic) - to direct users to specific endpoints (Azure, External, or Nested) based on where their DNS queries originate from geographically. With this routing method, it enables you to be in compliance with scenarios such as data sovereignty mandates, localization of content & user experience and measuring traffic from different regions
+    - [Multivalue](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-routing-methods#multivalue) - Select MultiValue for Traffic Manager profiles that can only have IPv4/IPv6 addresses as endpoints. When a query is received for this profile, all healthy endpoints are returned
+    - [Subnet](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-routing-methods#subnet) - to map sets of end-user IP address ranges to a specific endpoint. When a request is received, the endpoint returned will be the one mapped for that request’s source IP address
+- [Configure Azure Traffic Manager Endpoints](https://docs.microsoft.com/en-us/azure/traffic-manager/quickstart-create-traffic-manager-profile#add-traffic-manager-endpoints)
+- Create HTTP settings
+    - [Azure Traffic Manager endpoint monitoring](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-monitoring)
 
 ## Design and implement an Azure Virtual Network NAT
 - [Choose when to use a Virtual Network NAT]()
