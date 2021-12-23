@@ -42,8 +42,13 @@
     - [Allow access to Azure Service Bus namespace from specific virtual networks](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-service-endpoints)
 
 ## Configure VNet integration for dedicated platform as a service (PaaS) services
-- [Configure App Service for regional VNet integration]()
-- [Configure Azure Kubernetes Service (AKS) for regional VNet integration]()
-- [Configure clients to access App Service Environmen]()
+- Configure App Service for regional VNet integration
+    - [Integrate your app with an Azure virtual network](https://docs.microsoft.com/en-us/azure/app-service/overview-vnet-integration)
+    - [Enable virtual network integration in Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/configure-vnet-integration-enable)
+- Configure Azure Kubernetes Service (AKS) for regional VNet integration
+    - [Create a private Azure Kubernetes Service cluster](https://docs.microsoft.com/en-us/azure/aks/private-clusters)
+- [Configure clients to access App Service Environment (ASE) v3](https://docs.microsoft.com/en-us/azure/app-service/environment/creation)
+    - [ASE v1](https://docs.microsoft.com/en-us/Azure/app-service/environment/app-service-web-configure-an-app-service-environment)
+    - [ASE v2](https://docs.microsoft.com/en-us/azure/app-service/environment/using-an-ase#app-access)
 
 [Return to Table of Contents](README.md)
