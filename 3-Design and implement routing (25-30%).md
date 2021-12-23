@@ -19,15 +19,21 @@
 - [Create explicit outbound rules for a load balancer](https://docs.microsoft.com/en-us/azure/load-balancer/outbound-rules)
 
 ## Design and implement Azure Application Gateway
-- [Recommend Azure Application Gateway deployment options]()
-- [Choose between manual and autoscale]()
-- [Create a back-end pool]()
-- [Configure health probes]()
-- [Configure listeners]()
-- [Configure routing rules]()
-- [Configure HTTP settings]()
-- [Configure Transport Layer Security (TLS)]()
-- [Configure rewrite policies]()
+- Recommend Azure Application Gateway deployment options
+    - [Quickstart: Direct web traffic with Azure Application Gateway - Azure portal](https://docs.microsoft.com/en-us/azure/application-gateway/quick-create-portal)
+    - [Quickstart: Direct web traffic with Azure Application Gateway - Azure PowerShell](https://docs.microsoft.com/en-us/azure/application-gateway/quick-create-powershell)
+    - [Quickstart: Direct web traffic with Azure Application Gateway - Azure CLI](https://docs.microsoft.com/en-us/azure/application-gateway/quick-create-cli)
+    - [Quickstart: Direct web traffic with Azure Application Gateway - ARM template](https://docs.microsoft.com/en-us/azure/application-gateway/quick-create-template)
+- [Choose between Manual and Autoscale](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-autoscaling-zone-redundant#scaling-application-gateway-and-waf-v2)
+- [Create a back-end pool](https://docs.microsoft.com/en-us/azure/application-gateway/quick-create-portal#backends-tab)
+- [Configure Health Probes](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-create-probe-portal#create-probe-for-application-gateway-v2-sku)
+- [Configure Application Gateway Listeners](https://docs.microsoft.com/en-us/azure/application-gateway/configuration-listeners)
+- [Configure Application Gateway Routing Rules](https://docs.microsoft.com/en-us/azure/application-gateway/configuration-request-routing-rules)
+- [Configure Application Gateway HTTP settings](https://docs.microsoft.com/en-us/azure/application-gateway/configuration-http-settings)
+- Configure Transport Layer Security (TLS)
+    - [Configure end-to-end TLS by using Application Gateway with Azure portal](https://docs.microsoft.com/en-us/azure/application-gateway/end-to-end-ssl-portal)
+    - [Configure end to end TLS by using Application Gateway with PowerShell](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-end-to-end-ssl-powershell)
+- [Configure URL Rewrite policies](https://docs.microsoft.com/en-us/azure/application-gateway/rewrite-url-portal)
 
 ## Implement Azure Front Door
 - [Choose an Azure Front Door SKU]()
