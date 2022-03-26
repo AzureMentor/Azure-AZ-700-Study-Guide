@@ -10,6 +10,12 @@
     - VNet-integrated platform services
         - [Integrate your app with an Azure virtual network](https://docs.microsoft.com/en-us/azure/app-service/overview-vnet-integration)
 - [Plan and configure subnet delegation](https://docs.microsoft.com/en-us/azure/virtual-network/manage-subnet-delegation)
+- Plan and configure subnetting for Azure Route Server
+    - [Create and configure Route Server using the Azure portal](https://docs.microsoft.com/en-us/azure/route-server/quickstart-configure-route-server-portal)
+    - [Azure Route Server overview](https://docs.microsoft.com/en-us/azure/route-server/overview)
+    - [Route Server FAQ](https://docs.microsoft.com/en-us/azure/route-server/route-server-faq)
+    - [Troubleshooting Azure Route Server issues](https://docs.microsoft.com/en-us/azure/route-server/troubleshoot-route-server)
+    - [Configure peering between Azure Route Server and Quagga network virtual appliance](https://docs.microsoft.com/en-us/azure/route-server/tutorial-configure-route-server-with-quagga)
 
 ## Design and implement name resolution
 - [Design public DNS zones](https://docs.microsoft.com/en-us/azure/dns/dns-getstarted-portal)
@@ -27,7 +33,7 @@
     - [Create, change, or delete a virtual network peering](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-peering)
 
 ## Design and implement an Azure Virtual WAN architecture
-- [Design an Azure Virtual WAN architecture, including selecting SKUs and services](https://docs.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about)
+- [Design an Azure Virtual WAN architecture, including selecting types and services](https://docs.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about)
 - [Connect a VNet gateway to Azure Virtual WAN](https://docs.microsoft.com/en-us/azure/virtual-wan/connect-virtual-network-gateway-vwan)
 - [Create a Hub in Virtual WAN](https://docs.microsoft.com/en-us/azure/virtual-wan/virtual-wan-site-to-site-portal)
 - [Create a Network Virtual Appliance (NVA) in a virtual hub](https://docs.microsoft.com/en-us/azure/virtual-wan/how-to-nva-hub)

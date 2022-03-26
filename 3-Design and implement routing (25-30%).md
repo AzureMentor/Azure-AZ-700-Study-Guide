@@ -7,6 +7,12 @@
 - [Diagnose and resolve routing issues](https://docs.microsoft.com/en-us/azure/virtual-network/diagnose-network-routing-problem)
     - [Diagnose a virtual machine network routing problem - Azure PowerShell](https://docs.microsoft.com/en-us/azure/network-watcher/diagnose-vm-network-routing-problem-powershell)
     - [Diagnose a virtual machine network routing problem - Azure CLI](https://docs.microsoft.com/en-us/azure/network-watcher/diagnose-vm-network-routing-problem-cli)
+- Design and implement Azure Route Server
+    - [Create and configure Route Server using the Azure portal](https://docs.microsoft.com/en-us/azure/route-server/quickstart-configure-route-server-portal)
+    - [Azure Route Server overview](https://docs.microsoft.com/en-us/azure/route-server/overview)
+    - [Route Server FAQ](https://docs.microsoft.com/en-us/azure/route-server/route-server-faq)
+    - [Troubleshooting Azure Route Server issues](https://docs.microsoft.com/en-us/azure/route-server/troubleshoot-route-server)
+    - [Configure peering between Azure Route Server and Quagga network virtual appliance](https://docs.microsoft.com/en-us/azure/route-server/tutorial-configure-route-server-with-quagga)
 
 ## Design and implement an Azure Load Balancer
 - [Choose an Azure Load Balancer SKU (Basic versus Standard)](https://docs.microsoft.com/en-us/azure/load-balancer/skus)
@@ -33,7 +39,9 @@
 - Configure Transport Layer Security (TLS)
     - [Configure end-to-end TLS by using Application Gateway with Azure portal](https://docs.microsoft.com/en-us/azure/application-gateway/end-to-end-ssl-portal)
     - [Configure end to end TLS by using Application Gateway with PowerShell](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-end-to-end-ssl-powershell)
-- [Configure URL Rewrite policies](https://docs.microsoft.com/en-us/azure/application-gateway/rewrite-url-portal)
+- [Configure Rewrite sets](https://docs.microsoft.com/en-us/azure/application-gateway/rewrite-url-portal)
+    - [Rewrite HTTP request and response headers with Azure Application Gateway - Azure portal](https://docs.microsoft.com/en-us/azure/application-gateway/rewrite-http-headers-portal)
+    - [az network application-gateway rewrite-rule set](https://docs.microsoft.com/en-us/cli/azure/network/application-gateway/rewrite-rule/set)
 
 ## Implement Azure Front Door
 - [Choose an Azure Front Door SKU](https://docs.microsoft.com/en-us/azure/frontdoor/standard-premium/tier-comparison)
